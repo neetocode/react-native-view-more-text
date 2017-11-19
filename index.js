@@ -15,20 +15,20 @@ class ViewMoreText extends React.Component {
 
 
   componentWillReceiveProps() {
-    this.resetData();
+    // this.resetData();
 
-    this.setState({
-      numberOfLines: null,
-      opacity: 0,
-    });
+    // this.setState({
+    //   numberOfLines: null,
+    //   opacity: 0,
+    // });
   }
 
   componentDidUpdate() {
-    if (this.state.numberOfLines === null) {
-      this.props.afterExpand();
-    } else {
-      this.props.afterCollapse();
-    }
+    // if (this.state.numberOfLines === null) {
+    //   this.props.afterExpand();
+    // } else {
+    //   this.props.afterCollapse();
+    // }
   }
 
   onLayout = (event) => {
